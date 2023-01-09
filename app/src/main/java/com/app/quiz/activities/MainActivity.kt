@@ -63,14 +63,10 @@ class MainActivity : AppCompatActivity() {
                 val date = dateFormat.format(Date(it))
                 val currentDate = dateFormat.format(Date())
 //                Toast.makeText(this, "$date", Toast.LENGTH_SHORT).show()
-                if(date > currentDate){
-                    Toast.makeText(this, "This quiz has yet to come out", Toast.LENGTH_SHORT).show()
-                }else {
                     val intent = Intent(this, QuestionActivity::class.java)
                     intent.putExtra("DATE", date)
 //                  Toast.makeText(this, "$date", Toast.LENGTH_SHORT).show()
                     startActivity(intent)
-                }
             }
 //            Toast.makeText(this, "This quiz has yet to come out", Toast.LENGTH_SHORT).show()
             datePicker.addOnNegativeButtonClickListener {
