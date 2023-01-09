@@ -21,14 +21,14 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 
-//data non funziona                                 [FIX]       v1.0.0
+//data non funziona                                 [FIX]
 //immagini stabili                                  []
-//date superiori ad odierna deve return errore      [FIX]       v1.1.0
-//controllo se quiz non è uscito oggi               [FIX]       v1.2.0
-//Implementare pulsanti profilo,followme, rate app  [FIX]       v1.3.0
-//ordinare elementi per data                        [FIX]       v1.2.1
-//password più lunghe di 6                          [FIX]       v1.1.0
-//remove dark theme                                 [FIX]       v1.1.1
+//controllo se quiz non è uscito oggi               [FIX]
+//Implementare pulsanti profilo,followme, rate app  [FIX]
+//ordinare elementi per data                        [FIX]
+//password più lunghe di 6                          [FIX]
+//remove dark theme                                 [FIX]
+//date superiori ad odierna deve return errore      [FIX]       v1.4.1
 
 
 class MainActivity : AppCompatActivity() {
